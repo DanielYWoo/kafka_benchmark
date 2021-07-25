@@ -36,6 +36,7 @@ public class TestProducer {
                         }
                     }
             );
+            Thread.sleep(100);
             if (i % 10000 == 0) {
                 System.out.println(i);
             }
