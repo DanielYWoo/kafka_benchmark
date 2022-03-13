@@ -5,6 +5,8 @@ a micro benchmark on Macbook Air M1 2021
 
 3 kafka nodes, 1 zookeeper node
 
+The test shows that, don't use kafkaJS (without producer buffer) in any cases.
+
 # Java
 
 ```
